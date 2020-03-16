@@ -2,8 +2,6 @@
 import '../css/tutorial-userData.css';
 import DisplayFilter from "./DisplayFilter.js";
 
-//Path to index.html. If in root, leave blank.
-let directoryPath = '';
 // Application logic will begin once DOM content is loaded
 window.onload = () => {
     const app = new main();
@@ -68,7 +66,7 @@ class main {
             .then(() => {
             const nodeName = "Model-" + modelName;
             const modelNodeId = this._viewer.model.createNode(null, nodeName);
-            this._viewer.model.loadSubtreeFromScsFile(modelNodeId, directoryPath + "/data/" + modelName + ".scs")
+            this._viewer.model.loadSubtreeFromScsFile(modelNodeId, "/inventory-management/data/" + modelName + ".scs")
                 .then(() => {
                 this._viewer.view.fitWorld();
                 // Get the application data and map each NodeID as a key, and the rest of its data as a value
@@ -174,7 +172,7 @@ class main {
             modelThumbnail.href = "";
             modelThumbnail.className = "model-thumb";
             modelThumbnail.setAttribute("model", modelname);
-            let imgPath = directoryPath + "/data/thumbnails/" + modelname + ".png";
+            let imgPath = "/inventory-management/data/thumbnails/" + modelname + ".png";
             // Check to see if the selected model has a corresponding thumbnail made
             fetch(imgPath)
                 .then((resp) => {
