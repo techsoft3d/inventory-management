@@ -1,0 +1,2212 @@
+{
+	"NodeData": [
+		{
+			"ID": 43,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 1",
+			"Price": 100.00,
+			"Stock": 327,
+			"Reserved": 23
+		},
+		{
+			"ID": 43,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 1",
+			"Price": 100.00,
+			"Stock": 327,
+			"Reserved": 23
+		},
+		{
+			"ID": 47,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 1",
+			"Price": 25.50,
+			"Stock": 234,
+			"Reserved": 3
+		},
+		{
+			"ID": 51,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 1",
+			"Price": 23.50,
+			"Stock": 122,
+			"Reserved": 23
+		},
+		{
+			"ID": 55,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 1",
+			"Price": 15.00,
+			"Stock": 474,
+			"Reserved": 29
+		},
+		{
+			"ID": 59,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 1",
+			"Price": 12.25,
+			"Stock": 27,
+			"Reserved": 11
+		},
+		{
+			"ID": 63,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 1",
+			"Price": 12.25,
+			"Stock": 217,
+			"Reserved": 121
+		},
+		{
+			"ID": 67,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 1",
+			"Price": 5.15,
+			"Stock": 342,
+			"Reserved": 31
+		},
+		{
+			"ID": 71,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 1",
+			"Price": 40.69,
+			"Stock": 234,
+			"Reserved": 36
+		},
+		{
+			"ID": 75,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 1",
+			"Price": 40.00,
+			"Stock": 82,
+			"Reserved": 2
+		},
+		{
+			"ID": 79,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 388,
+			"Reserved": 72
+		},
+		{
+			"ID": 83,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 85,
+			"Reserved": 12
+		},
+		{
+			"ID": 87,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 0.45,
+			"Stock": 521,
+			"Reserved": 11
+		},
+		{
+			"ID": 91,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 0.45,
+			"Stock": 99,
+			"Reserved": 8
+		},
+		{
+			"ID": 95,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 2.25,
+			"Stock": 349,
+			"Reserved": 82
+		},
+		{
+			"ID": 99,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 2.25,
+			"Stock": 621,
+			"Reserved": 122
+		},
+		{
+			"ID": 103,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 1.75,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 107,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 1.75,
+			"Stock": 112,
+			"Reserved": 87
+		},
+		{
+			"ID": 111,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 2.15,
+			"Stock": 132,
+			"Reserved": 81
+		},
+		{
+			"ID": 115,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.65,
+			"Stock": 822,
+			"Reserved": 136
+		},
+		{
+			"ID": 119,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 2.15,
+			"Stock": 188,
+			"Reserved": 42
+		},
+		{
+			"ID": 123,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 4",
+			"Price": 1.10,
+			"Stock": 19,
+			"Reserved": 1
+		},
+		{
+			"ID": 127,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.10,
+			"Stock": 327,
+			"Reserved": 23
+		},
+		{
+			"ID": 131,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 4",
+			"Price": 1.10,
+			"Stock": 24,
+			"Reserved": 3
+		},
+		{
+			"ID": 132,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 2",
+			"Price": 0.10,
+			"Stock": 222,
+			"Reserved": 23
+		},
+		{
+			"ID": 144,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 1",
+			"Price": 8.00,
+			"Stock": 474,
+			"Reserved": 29
+		},
+		{
+			"ID": 148,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 1",
+			"Price": 5.25,
+			"Stock": 27,
+			"Reserved": 11
+		},
+		{
+			"ID": 152,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 1",
+			"Price": 8.00,
+			"Stock": 217,
+			"Reserved": 121
+		},
+		{
+			"ID": 156,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 1",
+			"Price": 5.25,
+			"Stock": 342,
+			"Reserved": 31
+		},
+		{
+			"ID": 160,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 2",
+			"Price": 40.69,
+			"Stock": 234,
+			"Reserved": 36
+		},
+		{
+			"ID": 164,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 2",
+			"Price": 10.00,
+			"Stock": 82,
+			"Reserved": 2
+		},
+		{
+			"ID": 168,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 2",
+			"Price": 1.25,
+			"Stock": 388,
+			"Reserved": 72
+		},
+		{
+			"ID": 169,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 2",
+			"Price": 1.25,
+			"Stock": 85,
+			"Reserved": 12
+		},
+		{
+			"ID": 189,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 2",
+			"Price": 75.00,
+			"Stock": 521,
+			"Reserved": 11
+		},
+		{
+			"ID": 193,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 99,
+			"Reserved": 8
+		},
+		{
+			"ID": 197,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 349,
+			"Reserved": 82
+		},
+		{
+			"ID": 201,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 621,
+			"Reserved": 122
+		},
+		{
+			"ID": 205,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 209,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 1",
+			"Price": 0.15,
+			"Stock": 112,
+			"Reserved": 87
+		},
+		{
+			"ID": 213,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 1",
+			"Price": 0.15,
+			"Stock": 132,
+			"Reserved": 81
+		},
+		{
+			"ID": 217,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 1",
+			"Price": 0.15,
+			"Stock": 822,
+			"Reserved": 136
+		},
+		{
+			"ID": 221,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 4",
+			"Price": 0.15,
+			"Stock": 188,
+			"Reserved": 42
+		},
+		{
+			"ID": 225,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 4",
+			"Price": 100.00,
+			"Stock": 19,
+			"Reserved": 1
+		},
+		{
+			"ID": 229,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 2",
+			"Price": 6.00,
+			"Stock": 19,
+			"Reserved": 1
+		},
+		{
+			"ID": 233,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 2",
+			"Price": 6.00,
+			"Stock": 327,
+			"Reserved": 23
+		},
+		{
+			"ID": 237,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 3",
+			"Price": 3.50,
+			"Stock": 264,
+			"Reserved": 32
+		},
+		{
+			"ID": 238,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 3",
+			"Price": 3.50,
+			"Stock": 222,
+			"Reserved": 23
+		},
+		{
+			"ID": 242,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 3",
+			"Price": 4.00,
+			"Stock": 474,
+			"Reserved": 29
+		},
+		{
+			"ID": 243,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 3",
+			"Price": 4.00,
+			"Stock": 275,
+			"Reserved": 113
+		},
+		{
+			"ID": 258,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 3",
+			"Price": 22.25,
+			"Stock": 217,
+			"Reserved": 121
+		},
+		{
+			"ID": 262,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 3",
+			"Price": 25.15,
+			"Stock": 342,
+			"Reserved": 31
+		},
+		{
+			"ID": 266,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 2",
+			"Price": 4.25,
+			"Stock": 234,
+			"Reserved": 36
+		},
+		{
+			"ID": 267,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 4",
+			"Price": 4.25,
+			"Stock": 82,
+			"Reserved": 2
+		},
+		{
+			"ID": 268,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 4",
+			"Price": 4.25,
+			"Stock": 388,
+			"Reserved": 72
+		},
+		{
+			"ID": 272,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 3",
+			"Price": 69.00,
+			"Stock": 420,
+			"Reserved": 69
+		},
+		{
+			"ID": 276,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 4",
+			"Price": 4.00,
+			"Stock": 561,
+			"Reserved": 121
+		},
+		{
+			"ID": 280,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 4",
+			"Price": 0.25,
+			"Stock": 99,
+			"Reserved": 8
+		},
+		{
+			"ID": 284,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 349,
+			"Reserved": 82
+		},
+		{
+			"ID": 288,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 721,
+			"Reserved": 162
+		},
+		{
+			"ID": 292,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 4",
+			"Price": 8.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 310,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 1",
+			"Price": 76.15,
+			"Stock": 312,
+			"Reserved": 87
+		},
+		{
+			"ID": 314,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 1",
+			"Price": 50.65,
+			"Stock": 332,
+			"Reserved": 12
+		},
+		{
+			"ID": 318,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 1",
+			"Price": 85.25,
+			"Stock": 822,
+			"Reserved": 136
+		},
+		{
+			"ID": 322,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 1",
+			"Price": 60.15,
+			"Stock": 188,
+			"Reserved": 42
+		},
+		{
+			"ID": 326,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 4",
+			"Price": 90.00,
+			"Stock": 39,
+			"Reserved": 1
+		},
+		{
+			"ID": 330,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 2",
+			"Price": 50.20,
+			"Stock": 327,
+			"Reserved": 23
+		},
+		{
+			"ID": 334,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 3",
+			"Price": 7.50,
+			"Stock": 245,
+			"Reserved": 32
+		},
+		{
+			"ID": 338,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 2",
+			"Price": 21.50,
+			"Stock": 122,
+			"Reserved": 23
+		},
+		{
+			"ID": 342,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 3",
+			"Price": 35.00,
+			"Stock": 374,
+			"Reserved": 29
+		},
+		{
+			"ID": 346,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 1",
+			"Price": 111.25,
+			"Stock": 27,
+			"Reserved": 11
+		},
+		{
+			"ID": 350,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 1",
+			"Price": 22.25,
+			"Stock": 217,
+			"Reserved": 121
+		},
+		{
+			"ID": 354,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 3",
+			"Price": 15.15,
+			"Stock": 342,
+			"Reserved": 31
+		},
+		{
+			"ID": 358,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 2",
+			"Price": 40.69,
+			"Stock": 234,
+			"Reserved": 36
+		},
+		{
+			"ID": 362,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 4",
+			"Price": 40.00,
+			"Stock": 82,
+			"Reserved": 2
+		},
+		{
+			"ID": 370,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 40.25,
+			"Stock": 388,
+			"Reserved": 72
+		},
+		{
+			"ID": 374,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 4",
+			"Price": 45.00,
+			"Stock": 85,
+			"Reserved": 12
+		},
+		{
+			"ID": 378,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 2",
+			"Price": 95.00,
+			"Stock": 521,
+			"Reserved": 11
+		},
+		{
+			"ID": 382,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 3.25,
+			"Stock": 99,
+			"Reserved": 8
+		},
+		{
+			"ID": 386,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 20.25,
+			"Stock": 349,
+			"Reserved": 8
+		},
+		{
+			"ID": 401,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 8.25,
+			"Stock": 621,
+			"Reserved": 122
+		},
+		{
+			"ID": 405,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 409,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.15,
+			"Stock": 112,
+			"Reserved": 87
+		},
+		{
+			"ID": 410,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.15,
+			"Stock": 132,
+			"Reserved": 81
+		},
+		{
+			"ID": 411,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.15,
+			"Stock": 822,
+			"Reserved": 136
+		},
+		{
+			"ID": 412,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.15,
+			"Stock": 188,
+			"Reserved": 42
+		},
+		{
+			"ID": 416,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 4",
+			"Price": 4.00,
+			"Stock": 19,
+			"Reserved": 1
+		},
+		{
+			"ID": 420,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 2",
+			"Price": 10.00,
+			"Stock": 327,
+			"Reserved": 23
+		},
+		{
+			"ID": 429,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 8.25,
+			"Stock": 621,
+			"Reserved": 122
+		},
+		{
+			"ID": 430,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 431,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.15,
+			"Stock": 112,
+			"Reserved": 87
+		},
+		{
+			"ID": 432,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.15,
+			"Stock": 132,
+			"Reserved": 81
+		},
+		{
+			"ID": 433,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.15,
+			"Stock": 822,
+			"Reserved": 136
+		},
+		{
+			"ID": 434,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.15,
+			"Stock": 188,
+			"Reserved": 42
+		},
+		{
+			"ID": 435,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 4",
+			"Price": 4.00,
+			"Stock": 19,
+			"Reserved": 1
+		},
+		{
+			"ID": 436,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 2",
+			"Price": 10.00,
+			"Stock": 327,
+			"Reserved": 23
+		},
+		{
+			"ID": 442,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 4.25,
+			"Stock": 488,
+			"Reserved": 72
+		},
+		{
+			"ID": 446,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 4",
+			"Price": 12.00,
+			"Stock": 815,
+			"Reserved": 120
+		},
+		{
+			"ID": 521,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 2",
+			"Price": 175.00,
+			"Stock": 521,
+			"Reserved": 11
+		},
+		{
+			"ID": 525,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 125.25,
+			"Stock": 299,
+			"Reserved": 81
+		},
+		{
+			"ID": 529,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 349,
+			"Reserved": 82
+		},
+		{
+			"ID": 533,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 621,
+			"Reserved": 122
+		},
+		{
+			"ID": 537,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 538,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 539,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 540,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 541,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 542,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 543,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 544,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 545,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 546,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 547,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 548,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 549,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 550,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 551,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 552,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 556,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 557,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 558,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 559,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 560,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 561,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 562,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 563,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 564,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 565,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 566,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 567,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 568,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 569,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 570,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 571,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 575,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 576,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 577,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 578,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 579,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 580,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 581,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 582,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 583,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 584,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 585,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 586,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 587,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 588,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 589,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 590,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 591,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 592,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 593,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 594,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 595,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 596,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 597,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 598,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 599,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 600,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 601,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 602,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 603,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 604,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 605,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 606,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 610,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 4.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 614,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 6.15,
+			"Stock": 112,
+			"Reserved": 87
+		},
+		{
+			"ID": 618,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 9.15,
+			"Stock": 132,
+			"Reserved": 81
+		},
+		{
+			"ID": 640,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 3",
+			"Price": 15.15,
+			"Stock": 822,
+			"Reserved": 136
+		},
+		{
+			"ID": 644,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 3",
+			"Price": 55.15,
+			"Stock": 822,
+			"Reserved": 136
+		},
+		{
+			"ID": 645,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 3",
+			"Price": 55.15,
+			"Stock": 822,
+			"Reserved": 136
+		},
+		{
+			"ID": 649,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 3",
+			"Price": 98.15,
+			"Stock": 426,
+			"Reserved": 36
+		},
+		{
+			"ID": 653,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 3",
+			"Price": 98.15,
+			"Stock": 426,
+			"Reserved": 36
+		},
+		{
+			"ID": 657,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 4",
+			"Price": 160.00,
+			"Stock": 19,
+			"Reserved": 1
+		},
+		{
+			"ID": 661,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 3",
+			"Price": 1.50,
+			"Stock": 327,
+			"Reserved": 23
+		},
+		{
+			"ID": 662,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 3",
+			"Price": 1.50,
+			"Stock": 240,
+			"Reserved": 3
+		},
+		{
+			"ID": 666,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 3",
+			"Price": 15.15,
+			"Stock": 822,
+			"Reserved": 136
+		},
+		{
+			"ID": 670,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 3",
+			"Price": 1.50,
+			"Stock": 240,
+			"Reserved": 3
+		},
+		{
+			"ID": 674,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 3",
+			"Price": 1.50,
+			"Stock": 240,
+			"Reserved": 3
+		},
+		{
+			"ID": 675,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 3",
+			"Price": 1.50,
+			"Stock": 240,
+			"Reserved": 3
+		},
+		{
+			"ID": 676,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 3",
+			"Price": 1.50,
+			"Stock": 240,
+			"Reserved": 3
+		},
+		{
+			"ID": 680,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 3",
+			"Price": 0.50,
+			"Stock": 440,
+			"Reserved": 66
+		},
+		{
+			"ID": 684,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 3",
+			"Price": 0.50,
+			"Stock": 440,
+			"Reserved": 66
+		},
+		{
+			"ID": 688,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 4.25,
+			"Stock": 388,
+			"Reserved": 72
+		},
+		{
+			"ID": 692,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 4",
+			"Price": 65.00,
+			"Stock": 285,
+			"Reserved": 12
+		},
+		{
+			"ID": 705,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 2",
+			"Price": 80.00,
+			"Stock": 521,
+			"Reserved": 11
+		},
+		{
+			"ID": 709,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 9.25,
+			"Stock": 99,
+			"Reserved": 8
+		},
+		{
+			"ID": 710,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 9.25,
+			"Stock": 99,
+			"Reserved": 8
+		},
+		{
+			"ID": 714,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 40.25,
+			"Stock": 621,
+			"Reserved": 122
+		},
+		{
+			"ID": 718,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 40.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 722,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 40.25,
+			"Stock": 621,
+			"Reserved": 122
+		},
+		{
+			"ID": 723,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 40.25,
+			"Stock": 621,
+			"Reserved": 122
+		},
+		{
+			"ID": 724,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 40.25,
+			"Stock": 621,
+			"Reserved": 122
+		},
+		{
+			"ID": 725,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 40.25,
+			"Stock": 621,
+			"Reserved": 122
+		},
+		{
+			"ID": 800,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 2",
+			"Price": 175.00,
+			"Stock": 521,
+			"Reserved": 11
+		},
+		{
+			"ID": 804,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 125.25,
+			"Stock": 299,
+			"Reserved": 81
+		},
+		{
+			"ID": 808,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 349,
+			"Reserved": 82
+		},
+		{
+			"ID": 812,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 621,
+			"Reserved": 122
+		},
+		{
+			"ID": 816,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 817,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 818,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 819,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 820,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 821,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 822,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 823,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 824,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 825,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 826,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 827,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 828,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 829,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 830,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 831,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 835,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 836,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 837,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 838,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 839,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 840,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 841,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 842,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 843,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 844,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 845,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 846,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 847,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 848,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 849,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 850,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 851,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 852,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 853,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 854,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 855,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 856,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 857,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 858,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 859,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 860,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 861,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 862,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 863,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 864,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 865,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 866,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 867,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 868,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 869,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 870,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 871,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 872,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 873,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 874,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 875,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 876,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 877,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 878,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 879,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 880,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 881,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 882,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 461,
+			"Reserved": 241
+		},
+		{
+			"ID": 886,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 4.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 887,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 6.15,
+			"Stock": 112,
+			"Reserved": 87
+		},
+		{
+			"ID": 891,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 9.15,
+			"Stock": 132,
+			"Reserved": 81
+		},
+		{
+			"ID": 936,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 1",
+			"Price": 29.25,
+			"Stock": 217,
+			"Reserved": 121
+		},
+		{
+			"ID": 937,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 1",
+			"Price": 29.25,
+			"Stock": 217,
+			"Reserved": 121
+		},
+		{
+			"ID": 907,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 2",
+			"Price": 120.69,
+			"Stock": 234,
+			"Reserved": 36
+		},
+		{
+			"ID": 911,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 2",
+			"Price": 120.69,
+			"Stock": 234,
+			"Reserved": 36
+		},
+		{
+			"ID": 915,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 2",
+			"Price": 160.90,
+			"Stock": 434,
+			"Reserved": 23
+		},
+		{
+			"ID": 919,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 4",
+			"Price": 125.00,
+			"Stock": 85,
+			"Reserved": 12
+		},
+		{
+			"ID": 923,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 2",
+			"Price": 125.00,
+			"Stock": 521,
+			"Reserved": 11
+		},
+		{
+			"ID": 927,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 40.25,
+			"Stock": 199,
+			"Reserved": 8
+		},
+		{
+			"ID": 931,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 2.25,
+			"Stock": 349,
+			"Reserved": 82
+		},
+		{
+			"ID": 935,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 1",
+			"Price": 92.25,
+			"Stock": 621,
+			"Reserved": 122
+		},
+		{
+			"ID": 941,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 30.25,
+			"Stock": 661,
+			"Reserved": 143
+		}
+	]
+}

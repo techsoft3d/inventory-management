@@ -1,0 +1,172 @@
+{
+	"NodeData": [
+		{
+			"ID": 20,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 2",
+			"Price": 100.00,
+			"Stock": 327,
+			"Reserved": 23
+		},
+		{
+			"ID": 24,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 3",
+			"Price": 95.50,
+			"Stock": 24,
+			"Reserved": 3
+		},
+		{
+			"ID": 28,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 2",
+			"Price": 41.50,
+			"Stock": 222,
+			"Reserved": 23
+		},
+		{
+			"ID": 39,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 3",
+			"Price": 235.00,
+			"Stock": 474,
+			"Reserved": 29
+		},
+		{
+			"ID": 43,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 1",
+			"Price": 1.25,
+			"Stock": 27,
+			"Reserved": 11
+		},
+		{
+			"ID": 47,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 1",
+			"Price": 2.25,
+			"Stock": 217,
+			"Reserved": 121
+		},
+		{
+			"ID": 51,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 3",
+			"Price": 5.15,
+			"Stock": 342,
+			"Reserved": 31
+		},
+		{
+			"ID": 55,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 2",
+			"Price": 180.69,
+			"Stock": 234,
+			"Reserved": 36
+		},
+		{
+			"ID": 59,
+			"Manufacturer": "Bradford Engineering",
+			"Location": "Warehouse 4",
+			"Price": 230.00,
+			"Stock": 82,
+			"Reserved": 2
+		},
+		{
+			"ID": 63,
+			"Manufacturer": "Toshiaki Industries",
+			"Location": "Warehouse 1",
+			"Price": 4.25,
+			"Stock": 388,
+			"Reserved": 72
+		},
+		{
+			"ID": 67,
+			"Manufacturer": "Kane Co.",
+			"Location": "Warehouse 4",
+			"Price": 65.00,
+			"Stock": 85,
+			"Reserved": 12
+		},
+		{
+			"ID": 71,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 2",
+			"Price": 225.00,
+			"Stock": 521,
+			"Reserved": 11
+		},
+		{
+			"ID": 75,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 99,
+			"Reserved": 8
+		},
+		{
+			"ID": 76,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 349,
+			"Reserved": 82
+		},
+		{
+			"ID": 77,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 621,
+			"Reserved": 122
+		},
+		{
+			"ID": 78,
+			"Manufacturer": "Taddy Technologies",
+			"Location": "Warehouse 1",
+			"Price": 0.25,
+			"Stock": 661,
+			"Reserved": 143
+		},
+		{
+			"ID": 82,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.15,
+			"Stock": 112,
+			"Reserved": 87
+		},
+		{
+			"ID": 83,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.15,
+			"Stock": 132,
+			"Reserved": 81
+		},
+		{
+			"ID": 84,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.15,
+			"Stock": 822,
+			"Reserved": 136
+		},
+		{
+			"ID": 85,
+			"Manufacturer": "ThiccPills Parts and Products",
+			"Location": "Warehouse 1",
+			"Price": 0.15,
+			"Stock": 188,
+			"Reserved": 42
+		},
+		{
+			"ID": 89,
+			"Manufacturer": "Maurice Machinery",
+			"Location": "Warehouse 4",
+			"Price": 200.00,
+			"Stock": 19,
+			"Reserved": 1
+		}
+	]
+}

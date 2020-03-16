@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Add the Bootstrap CDN for some simple styling -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+  <!-- Include the HOOPS web viewer client source -->
+  <script type="text/javascript" src="src/hoops/hoops_web_viewer.js"></script>
+
+  <!-- Making the viewer globally available for debug purposes -->
+  <script >       var app;     </script>
+
+  <!-- Include the Webpack bundled result of our written source code -->
+  <script src="build/bundle.js" ></script>
+
+  <title>Workflow Tutorial: Inventory Management</title>
+</head>
+
+<body>
+  <!-- Header Component w/ TS3D images -->
+  <header id="logo-head" class="comp-container">
+    <div id="ts3dlogo">
+      <img src="img/ts3d_logo.png" alt="logo" />
+    </div>
+    <div id="hclogo">
+      <img src="img/hc.png" alt="hcLogo" />
+    </div>
+  </header>
+
+  <!-- Inspector Component for General Information and Operators -->
+  <div id="inspector" class="comp-container">
+    <div id="inspector-label" class="comp-label">Inspector</div>
+
+    <!-- Information Fields -->
+    <div id="inspector-info">
+      <!-- General Model Info -->
+      <div id="model-info" class="info-text-cat">
+        <p>Model Information</p>
+        <div id="model-info-keys">
+          <p>Model File Name:</p>
+          <p id="model-file-name" class="inspector-values">--</p>
+          <p>Native File Type:</p>
+          <p id="model-file-type" class="inspector-values">--</p>
+          <p>Total Assembly Cost:</p>
+          <p id="inv-total-cost" class="inspector-values">--</p>
+        </div>
+      </div>
+      <!-- Node Specific Info -->
+      <div id="node-info" class="info-text-cat">
+        <p>Node Information</p>
+        <div id="node-info-keys">
+          <p>Node Name:</p>
+          <p id="node-name" class="inspector-values">--</p>
+          <p>Node ID: </p>
+          <p id="node-id" class="inspector-values">--</p>
+        </div>
+      </div> <!-- End Node Specific Info -->
+
+      <!-- Inventory Specific Info -->
+      <div id="inventory-info" class="info-text-cat">
+        <p>Inventory Information</p>
+        <div id="inv-info-keys">
+          <p>Manufacturer:</p>
+          <p id="inv-manufacturer" class="inspector-values">--</p>
+          <p>Total Cost of Selections:</p>
+          <p id="inv-select-cost" class="inspector-values">--</p>
+          <p>Total Stock:</p>
+          <p id="inv-total-stock" class="inspector-values">--</p>
+          <p>Available Stock:</p>
+          <p id="inv-avail-stock" class="inspector-values">--</p>
+          <p>Claimed for Orders:</p>
+          <p id="inv-claimed" class="inspector-values">--</p>
+          <p>Storage Location:</p>
+          <p id="inv-location" class="inspector-values">--</p>
+        </div>
+      </div> <!-- End Inv Specific Info -->
+
+    </div> <!-- End Info Fields -->
+  </div> <!-- End Inspector Component -->
+
+  <!-- Main Viewer Component w/ Interaction -->
+  <div id="canvas" class="comp-container">
+    <div id="viewer"></div>
+    <div id="viewer-label" class="comp-label">HOOPS WebViewer</div>
+  </div>
+
+
+  <!-- Filter UI Controls -->
+  <div id="display-filter" class="comp-container">
+    <div id="filter-label" class="comp-label">Display Filter</div>
+
+    <div id="displayModeContainer" class="subcomp">
+      <span>Filter Rendering Mode:
+        <input type="radio" id="isolateChoice" name="displaymode" value="isolate" checked>
+        <label for="isolateChoice">Isolate</label>
+
+        <input type="radio" id="transparentChoice" name="displaymode" value="transparent">
+        <label for="transparentChoice">Transparent</label>
+
+        <input type="radio" id="xrayChoice" name="displaymode" value="xray">
+        <label for="xrayChoice">X-Ray</label>
+      </span>
+      &emsp; &emsp; &emsp;
+      <span>Color Gradient:
+        <input type="radio" id="priceGradientChoice" name="gradientmode" value="priceGradient">
+        <label for="priceGradientChoice">Price</label>
+        <input type= "radio" id="stockGradientChoice" name="gradientmode" value="stockGradient">
+        <label for="stockGradientChoice">Stock</label>
+        <input type="radio" id="offGradientChoice" name="gradientmode" value="offGradient" checked>
+        <label for="offGradientChoice">Off</label>
+      </span>
+    </div>
+
+    <div id="filterSliders" class="subcomp">
+        <div id="stock-slider">
+            <p class="pSlider">Available Stock:
+              <span id="ssMinVal">0</span> to <span id="ssMaxVal">1000</span>
+            </p>
+            <div class="slidecontainer price-slider2">
+              <input type="range" min="0" max="1000" value="0" class="slider" id="ssMinSlider">
+              <input type="range" min="0" max="1000" value="1000" class="slider" id="ssMaxSlider">
+            </div>
+          </div>
+      <div id="price-slider">
+        <p class="pSlider">Cost of Parts:
+          $<span id="psMinVal">0</span> to $<span id="psMaxVal">250</span>
+        </p>
+    
+        <div class="slidecontainer price-slider2">
+          <input type="range" min="0" max="250" value="0" class="slider" id="psMinSlider">
+          <input type="range" min="0" max="250" value="250" class="slider" id="psMaxSlider">
+        </div>
+      </div>
+    </div>
+
+    <div id="companyFilter" class="subcomp">
+      <span><p id="companyLabel">Manufacturers:</p> </span>
+      <img class="companyFilterButton selected" alt="Kane Co." src="/data/database/companyLogos/kaneco.png"/>
+      <img class="companyFilterButton selected" alt="Taddy Technologies" src="/data/database/companyLogos/taddytech.png"/>
+      <img class="companyFilterButton selected" alt="Bradford Engineering" src="/data/database/companyLogos/bradfordengineering.png"/>
+      <img class="companyFilterButton selected" alt="Maurice Machinery" src="/data/database/companyLogos/maurice.png"/>
+      <img class="companyFilterButton selected" alt="Toshiaki Industries" src="/data/database/companyLogos/toshiakiindustries.png"/>
+      <img class="companyFilterButton selected" alt="ThiccPills Parts and Products" src="/data/database/companyLogos/thiccpills.png"/>
+    </div>
+
+  </div>
+
+  <!-- Model Browser Component -->
+  <div id="model-browser" class="comp-container">
+    <div id="model-browser-label" class="comp-label">Model Browser</div>
+    <div id="models-scroller"></div>
+    <div id="model-browser-buttons">
+      <button id="open-model-button" onclick="document.getElementById('file-input').click(); return false;"
+        type="button" class="btn btn-primary btn-sm button-row" disabled>Open Model...</button>
+      <input id="file-input" type="file"></input>
+    </div>
+  </div>
+
+</body>
+
+</html>

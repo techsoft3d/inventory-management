@@ -1,0 +1,214 @@
+<!--HC 7.0-->
+<Root>
+	<ModelFile>
+		<ProductOccurence Id="0" Name="_micro engine" ExchangeId="" Behaviour="1" Children="1" IsPart="false"/>
+		<ProductOccurence Id="1" Name="Product1" ExchangeId="" LayerId="65535" Style="65535" Behaviour="1" FilePath="..\_data\micro_engine\_micro engine.CATProduct" Children="2 3 4 5 6 7 8 9 10 11 12 13 14 15 16" IsPart="false"/>
+		<ProductOccurence Id="2" Name="HOUSING(HOUSING.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\housing .CATPart" InstanceRef="18" IsPart="true">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 21.5 -0.5 -0.310000002384185791 1"/>
+			<BodyInstance Id="20" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 1" BodyRef="19"/>
+		</ProductOccurence>
+		<ProductOccurence Id="18" Name="" ExchangeId="" Behaviour="1" FilePath="..\_data\micro_engine\housing .CATPart" IsPart="true">
+			<PartDefinition Id="17" Name="" ExchangeId="" Style="65535" Behaviour="1" FilePath="..\_data\micro_engine\housing .CATPart">
+				<Body Id="19" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Style="1" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="-0.003219561175674737034 28.51635838477773888 -38.26766292823160853" Surface="21141.307615" Volume="22520.139523"/>
+					<BoundingBox Min="-22.06279754638671875 0.05499999970197677612 -71.09999847412109375" Max="22.06279754638671875 57.94499969482421875 0.4099999964237213135"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="3" Name="CYLINDER LINER(CYLINDER LINER.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\cylinder liner.CATPart" InstanceRef="22" IsPart="true">
+			<Transformation RelativeTransfo="1 3.673819061467131775e-16 -3.673819061467131775e-16 0 -3.673819061467131775e-16 6.123031769111886291e-17 -1 0 -3.673819061467131775e-16 1 6.123031769111886291e-17 0 21.5 28.5 -71.30999755859375 1"/>
+			<BodyInstance Id="24" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 2" BodyRef="23"/>
+		</ProductOccurence>
+		<ProductOccurence Id="22" Name="" ExchangeId="" Behaviour="1" FilePath="..\_data\micro_engine\cylinder liner.CATPart" IsPart="true">
+			<PartDefinition Id="21" Name="" ExchangeId="" Style="65535" Behaviour="1" FilePath="..\_data\micro_engine\cylinder liner.CATPart">
+				<Body Id="23" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Style="3" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="-0.0008843367299742961769 -18.36232349694329002 0.03796207853023415846" Surface="4515.355143" Volume="2154.329203"/>
+					<BoundingBox Min="-11.10000038146972656 -37.09999847412109375 -11.10000038146972656" Max="11.10000038146972656 0.1000000014901161194 11.10000038146972656"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="4" Name="HOUSING TOP(HOUSING TOP.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\housing top.CATPart" InstanceRef="26" IsPart="true">
+			<Transformation RelativeTransfo="3.673819061467131775e-16 0 1 0 0 1 -0 0 -1 0 3.673819061467131775e-16 0 21.5 28.5 -90.30999755859375 1"/>
+			<BodyInstance Id="28" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 3" BodyRef="27"/>
+		</ProductOccurence>
+		<ProductOccurence Id="26" Name="" ExchangeId="" Behaviour="1" FilePath="..\_data\micro_engine\housing top.CATPart" IsPart="true">
+			<PartDefinition Id="25" Name="" ExchangeId="" Style="65535" Behaviour="1" FilePath="..\_data\micro_engine\housing top.CATPart">
+				<Body Id="27" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Style="4" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="10.66592994774848258 4.36955879017217741e-07 -2.492160458966246446e-06" Surface="13360.489284" Volume="14778.515465"/>
+					<BoundingBox Min="-0.2071592062711715698 -22.75 -22.75" Max="20.10007095336914063 22.75 22.75682640075683594"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="5" Name="MOBILE PART(MOBILE PART.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\mobile part.CATProduct" Children="29 30 31 32 33 34 35" IsPart="false">
+			<Transformation RelativeTransfo="-1 5.967448757360216405e-16 5.796494612244943129e-17 0 -5.963211475041576767e-16 -0.9999751448631286621 0.007053606212139129639 0 6.217270801938827628e-17 0.007053606212139129639 0.9999751448631286621 0 122.3708648681640625 31.22583198547363281 -48.94095611572265625 1"/>
+		</ProductOccurence>
+		<ProductOccurence Id="29" Name="PUSH ROD(PUSH ROD.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\push rod.CATPart" InstanceRef="37" IsPart="true">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 100.7928009033203125 2.896131038665771484 37.9209442138671875 1"/>
+			<BodyInstance Id="39" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 4" BodyRef="38"/>
+		</ProductOccurence>
+		<ProductOccurence Id="37" Name="" ExchangeId="" Behaviour="1" FilePath="..\_data\micro_engine\push rod.CATPart" IsPart="true">
+			<PartDefinition Id="36" Name="" ExchangeId="" Style="6" Behaviour="129" FilePath="..\_data\micro_engine\push rod.CATPart">
+				<Body Id="38" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Style="5" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="1.603932109535632207e-06 5.416570126663907385e-07 -11.75827878601558574" Surface="913.164098" Volume="649.378553"/>
+					<BoundingBox Min="-2.599999904632568359 -6.099999904632568359 -34.59999847412109375" Max="2.599999904632568359 6.099999904632568359 6.099999904632568359"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="30" Name="BEARING PR DW(BEARING PR DW.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\bearing_pr_dw.CATPart" InstanceRef="41" IsPart="true">
+			<Transformation RelativeTransfo="1.224606353822377258e-16 -1 6.123031769111886291e-17 0 1 1.224606353822377258e-16 -6.123031769111886291e-17 0 6.123031769111886291e-17 6.123031769111886291e-17 1 0 100.7928009033203125 2.896131038665771484 37.9209442138671875 1"/>
+			<BodyInstance Id="43" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 5" BodyRef="42"/>
+		</ProductOccurence>
+		<ProductOccurence Id="41" Name="" ExchangeId="" Behaviour="1" FilePath="..\_data\micro_engine\bearing_pr_dw.CATPart" IsPart="true">
+			<PartDefinition Id="40" Name="" ExchangeId="" Style="65535" Behaviour="1" FilePath="..\_data\micro_engine\bearing_pr_dw.CATPart">
+				<Body Id="42" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Style="3" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="2.882272522791706572e-17 4.045294768830465624e-17 -2.007477529032118486e-16" Surface="263.734860" Volume="109.779197"/>
+					<BoundingBox Min="-4.099999904632568359 -2.599999904632568359 -4.099999904632568359" Max="4.099999904632568359 2.599999904632568359 4.099999904632568359"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="31" Name="BEARING PR UP(BEARING PR UP.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\bearing_pr_up.CATPart" InstanceRef="45" IsPart="true">
+			<Transformation RelativeTransfo="1.224606353822377258e-16 -1 6.123031769111886291e-17 0 1 1.224606353822377258e-16 -6.123031769111886291e-17 0 6.123031769111886291e-17 6.123031769111886291e-17 1 0 100.7928009033203125 2.896131038665771484 7.920945644378662109 1"/>
+			<BodyInstance Id="47" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 6" BodyRef="46"/>
+		</ProductOccurence>
+		<ProductOccurence Id="45" Name="" ExchangeId="" Behaviour="1" FilePath="..\_data\micro_engine\bearing_pr_up.CATPart" IsPart="true">
+			<PartDefinition Id="44" Name="" ExchangeId="" Style="65535" Behaviour="1" FilePath="..\_data\micro_engine\bearing_pr_up.CATPart">
+				<Body Id="46" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Style="7" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="2.440661078886966671e-16 -8.989543568644443736e-17 -3.820556016673888927e-18" Surface="189.567706" Volume="61.750801"/>
+					<BoundingBox Min="-3.099999904632568359 -2.599999904632568359 -3.099999904632568359" Max="3.099999904632568359 2.599999904632568359 3.099999904632568359"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="32" Name="AXE(AXE.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\axe.CATPart" InstanceRef="49" IsPart="true">
+			<Transformation RelativeTransfo="1.224606353822377258e-16 -1 6.123031769111886291e-17 0 1 1.224606353822377258e-16 -6.123031769111886291e-17 0 6.123031769111886291e-17 6.123031769111886291e-17 1 0 109.2928009033203125 2.896131038665771484 7.920945644378662109 1"/>
+			<BodyInstance Id="51" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 7" BodyRef="50"/>
+		</ProductOccurence>
+		<ProductOccurence Id="49" Name="" ExchangeId="" Behaviour="1" FilePath="..\_data\micro_engine\axe.CATPart" IsPart="true">
+			<PartDefinition Id="48" Name="" ExchangeId="" Style="65535" Behaviour="1" FilePath="..\_data\micro_engine\axe.CATPart">
+				<Body Id="50" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Style="8" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="8.017360967129077459e-09 -8.499999862472057188 -1.264338782113117147e-08" Surface="368.979266" Volume="216.326783"/>
+					<BoundingBox Min="-2.349999904632568359 -17.10000038146972656 -2.349999904632568359" Max="2.349999904632568359 0.1000000014901161194 2.349999904632568359"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="33" Name="PISTON(PISTON.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\piston.CATPart" InstanceRef="53" IsPart="true">
+			<Transformation RelativeTransfo="1 1.228910075287817155e-16 -4.334177738606216262e-19 0 4.334177738606216262e-19 -0.007053606212139129639 -0.9999751448631286621 0 -1.228910075287817155e-16 0.9999751448631286621 -0.007053606212139129639 0 100.7928009033203125 2.896131038665771484 7.920945644378662109 1"/>
+			<BodyInstance Id="55" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 8" BodyRef="54"/>
+		</ProductOccurence>
+		<ProductOccurence Id="53" Name="" ExchangeId="" Behaviour="1" FilePath="..\_data\micro_engine\piston.CATPart" IsPart="true">
+			<PartDefinition Id="52" Name="" ExchangeId="" Style="65535" Behaviour="1" FilePath="..\_data\micro_engine\piston.CATPart">
+				<Body Id="54" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Style="9" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="8.113700633451919746e-09 4.86619261573657802 2.727975886455091135e-10" Surface="1505.612609" Volume="2277.707844"/>
+					<BoundingBox Min="-9.124032020568847656 -8.100000381469726563 -9.100000381469726563" Max="9.124032020568847656 10.10000038146972656 9.100000381469726563"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="34" Name="CRANKSHAFT(CRANKSHAFT.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\crankshaft.CATPart" InstanceRef="57" IsPart="true">
+			<Transformation RelativeTransfo="6.145965186158796473e-17 -0.003752432996407151222 0.9999929666519165039 0 -1 -4.310860042204164927e-22 6.14600819955064923e-17 0 -2.30193740372515124e-19 -0.9999929666519165039 -0.003752432996407151222 0 37.19280242919921875 2.929903030395507813 28.92100906372070313 1"/>
+			<BodyInstance Id="59" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 9" BodyRef="58"/>
+		</ProductOccurence>
+		<ProductOccurence Id="57" Name="" ExchangeId="" Behaviour="1" FilePath="..\_data\micro_engine\crankshaft.CATPart" IsPart="true">
+			<PartDefinition Id="56" Name="" ExchangeId="" Style="65535" Behaviour="1" FilePath="..\_data\micro_engine\crankshaft.CATPart">
+				<Body Id="58" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Style="10" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="0.1112473602335412592 -37.19485050925038649 0.0007157929875284589974" Surface="4906.115793" Volume="8364.498080"/>
+					<BoundingBox Min="-14.85000038146972656 -67.1999969482421875 -14.85000038146972656" Max="14.85000038146972656 0.1000000014901161194 14.85000038146972656"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="35" Name="BEARING CS(BEARING CS.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\bearing CS.CATPart" InstanceRef="61" IsPart="true">
+			<Transformation RelativeTransfo="-6.003205062088474617e-17 0.9998121261596679688 0.01938201859593391418 0 -1 -6.004355174012168347e-17 1.150205143071355284e-20 0 1.175265141952971852e-18 -0.01938201859593391418 0.9998121261596679688 0 49.2928009033203125 2.929903030395507813 28.92100906372070313 1"/>
+			<BodyInstance Id="63" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 10" BodyRef="62"/>
+		</ProductOccurence>
+		<ProductOccurence Id="61" Name="" ExchangeId="" Behaviour="1" FilePath="..\_data\micro_engine\bearing CS.CATPart" IsPart="true">
+			<PartDefinition Id="60" Name="" ExchangeId="" Style="65535" Behaviour="1" FilePath="..\_data\micro_engine\bearing CS.CATPart">
+				<Body Id="62" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Style="11" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="0.0001072517820271746595 -22.04019653410443169 0.2011558839849732494" Surface="4216.469375" Volume="2048.238697"/>
+					<BoundingBox Min="-8.100000381469726563 -44.90000152587890625 -8.137108802795410156" Max="8.100000381469726563 0.1000000014901161194 8.100000381469726563"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="6" Name="HOUSING BACK(HOUSING BACK.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\housing back.CATPart" InstanceRef="65" IsPart="true">
+			<BodyInstance Id="67" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 11" BodyRef="66"/>
+		</ProductOccurence>
+		<ProductOccurence Id="65" Name="" ExchangeId="" Behaviour="1" FilePath="..\_data\micro_engine\housing back.CATPart" IsPart="true">
+			<PartDefinition Id="64" Name="" ExchangeId="" Style="65535" Behaviour="1" FilePath="..\_data\micro_engine\housing back.CATPart">
+				<Body Id="66" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Style="12" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="6.012787752956112008 28.50000012299299712 -20.00000052359553493" Surface="4590.156825" Volume="10463.442203"/>
+					<BoundingBox Min="-0.1000000014901161194 8.399999618530273438 -40.09999847412109375" Max="11.5 48.59999847412109375 0.1000000014901161194"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="7" Name="HOUSING FRONT(HOUSING FRONT.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\housing front.CATPart" InstanceRef="69" IsPart="true">
+			<Transformation RelativeTransfo="1 -1.224606353822377258e-16 1.224606353822377258e-16 0 1.224606353822377258e-16 9.436895709313830594e-16 -1 0 1.224606353822377258e-16 1 9.436895709313830594e-16 0 31.60000038146972656 28.5 -20 1"/>
+			<BodyInstance Id="71" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 12" BodyRef="70"/>
+		</ProductOccurence>
+		<ProductOccurence Id="69" Name="" ExchangeId="" Behaviour="1" FilePath="..\_data\micro_engine\housing front.CATPart" IsPart="true">
+			<PartDefinition Id="68" Name="" ExchangeId="" Style="65535" Behaviour="1" FilePath="..\_data\micro_engine\housing front.CATPart">
+				<Body Id="70" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Style="13" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="12.57222204211533878 -0.4932003345592271826 -0.002485384977032500248" Surface="8358.979633" Volume="19627.713467"/>
+					<BoundingBox Min="-0.1000000014901161194 -20.10000038146972656 -20.10000038146972656" Max="41.20000076293945313 22.60970878601074219 20.10000038146972656"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="8" Name="SCREW BACK(SCREW BACK.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\screw back.CATPart" InstanceRef="73" IsPart="true">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 5 41 -7.5 1"/>
+			<BodyInstance Id="75" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 13" BodyRef="74"/>
+		</ProductOccurence>
+		<ProductOccurence Id="73" Name="" ExchangeId="" Behaviour="1" FilePath="..\_data\micro_engine\screw back.CATPart" IsPart="true">
+			<PartDefinition Id="72" Name="" ExchangeId="" Style="65535" Behaviour="1" FilePath="..\_data\micro_engine\screw back.CATPart">
+				<Body Id="74" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Style="14" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="12.46867461437887847 5.797792883465438159e-06 1.701458246069861316e-09" Surface="315.889674" Volume="146.806263"/>
+					<BoundingBox Min="-4.099999904632568359 -2.099999904632568359 -2.099999904632568359" Max="35.09999847412109375 2.099999904632568359 2.099999904632568359"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="9" Name="SCREW BACK(SCREW BACK.2)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\screw back.CATPart" InstanceRef="73" IsPart="true">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 5 16 -7.5 1"/>
+			<BodyInstance Id="76" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 14" BodyRef="74"/>
+		</ProductOccurence>
+		<ProductOccurence Id="10" Name="SCREW BACK(SCREW BACK.3)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\screw back.CATPart" InstanceRef="73" IsPart="true">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 5 41 -32.5 1"/>
+			<BodyInstance Id="77" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 15" BodyRef="74"/>
+		</ProductOccurence>
+		<ProductOccurence Id="11" Name="SCREW BACK(SCREW BACK.4)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\screw back.CATPart" InstanceRef="73" IsPart="true">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 5 16 -32.5 1"/>
+			<BodyInstance Id="78" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 16" BodyRef="74"/>
+		</ProductOccurence>
+		<ProductOccurence Id="12" Name="SCREW TOP(SCREW TOP.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\screw top.CATPart" InstanceRef="80" IsPart="true">
+			<Transformation RelativeTransfo="3.673819061467131775e-16 0 1 0 0 1 -0 0 -1 0 3.673819061467131775e-16 0 30.5 19.5 -75.30999755859375 1"/>
+			<BodyInstance Id="82" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 17" BodyRef="81"/>
+		</ProductOccurence>
+		<ProductOccurence Id="80" Name="" ExchangeId="" Behaviour="1" FilePath="..\_data\micro_engine\screw top.CATPart" IsPart="true">
+			<PartDefinition Id="79" Name="" ExchangeId="" Style="65535" Behaviour="1" FilePath="..\_data\micro_engine\screw top.CATPart">
+				<Body Id="81" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Style="15" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="2.874197953995357047 1.111053744789350686e-05 9.354809774211852191e-10" Surface="175.723297" Volume="83.942830"/>
+					<BoundingBox Min="-3.599999904632568359 -2.099999904632568359 -2.099999904632568359" Max="11.10000038146972656 2.099999904632568359 2.099999904632568359"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="13" Name="SCREW TOP(SCREW TOP.2)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\screw top.CATPart" InstanceRef="80" IsPart="true">
+			<Transformation RelativeTransfo="3.673819061467131775e-16 0 1 0 0 1 -0 0 -1 0 3.673819061467131775e-16 0 30.5 37.5 -75.30999755859375 1"/>
+			<BodyInstance Id="83" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 18" BodyRef="81"/>
+		</ProductOccurence>
+		<ProductOccurence Id="14" Name="SCREW TOP(SCREW TOP.3)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\screw top.CATPart" InstanceRef="80" IsPart="true">
+			<Transformation RelativeTransfo="3.673819061467131775e-16 0 1 0 0 1 -0 0 -1 0 3.673819061467131775e-16 0 12.5 19.5 -75.30999755859375 1"/>
+			<BodyInstance Id="84" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 19" BodyRef="81"/>
+		</ProductOccurence>
+		<ProductOccurence Id="15" Name="SCREW TOP(SCREW TOP.4)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\screw top.CATPart" InstanceRef="80" IsPart="true">
+			<Transformation RelativeTransfo="3.673819061467131775e-16 0 1 0 0 1 -0 0 -1 0 3.673819061467131775e-16 0 12.5 37.5 -75.30999755859375 1"/>
+			<BodyInstance Id="85" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 20" BodyRef="81"/>
+		</ProductOccurence>
+		<ProductOccurence Id="16" Name="CARBURETOR(CARBURETOR.1)" ExchangeId="" LayerId="65535" Style="0" Behaviour="1" FilePath="..\_data\micro_engine\carburetor.CATPart" InstanceRef="87" IsPart="true">
+			<Transformation RelativeTransfo="-0.9545378684997558594 -0.005617600400000810623 -0.2980366349220275879 0 0.005362296942621469498 -0.9999842047691345215 0.001674277125857770443 0 -0.2980413436889648438 -9.278602192130946946e-16 0.9545529484748840332 0 44.57569503784179688 28.5 -49.14356231689453125 1"/>
+			<BodyInstance Id="89" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Behaviour="1" MeshInstanceKey="1 21" BodyRef="88"/>
+		</ProductOccurence>
+		<ProductOccurence Id="87" Name="" ExchangeId="" Behaviour="1" FilePath="..\_data\micro_engine\carburetor.CATPart" IsPart="true">
+			<PartDefinition Id="86" Name="" ExchangeId="" Style="65535" Behaviour="1" FilePath="..\_data\micro_engine\carburetor.CATPart">
+				<Body Id="88" Name="MechanicalTool.1" ExchangeId="" LayerId="65535" Style="16" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="0.002277331082840119373 0.2676035954875755074 1.933162207419776291" Surface="2311.297553" Volume="2416.196879"/>
+					<BoundingBox Min="-5.584500312805175781 -23.04000091552734375 -10.09099960327148438" Max="5.583701610565185547 19.29999923706054688 21.10899925231933594"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+	</ModelFile>
+</Root>
+
