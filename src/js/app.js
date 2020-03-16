@@ -70,7 +70,7 @@ class main {
                 .then(() => {
                 this._viewer.view.fitWorld();
                 // Get the application data and map each NodeID as a key, and the rest of its data as a value
-                fetch( directoryPath + "/data/database/" + modelName + ".json")
+                fetch( "/inventory-management/data/database/" + modelName + ".json")
                     .then((resp) => {
                     if (resp.ok) {
                         resp.json()
