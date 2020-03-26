@@ -1,7 +1,7 @@
 import "../css/tutorial-userData.css";
 import DisplayFilter from "./DisplayFilter.js";
 
-let directoryPath = "/inventory-management";
+let directoryPath = "../..";
 // Application logic will begin once DOM content is loaded
 window.onload = () => {
   const app = new main();
@@ -96,7 +96,6 @@ class main {
     this._viewer.model.clear().then(() => {
       const nodeName = "Model-" + modelName;
       const modelNodeId = this._viewer.model.createNode(null, nodeName);
-      debugger;
       this._viewer.model.loadSubtreeFromScsFile(modelNodeId, directoryPath + "/data/" + modelName + ".scs")
         .then(() => {
           this._viewer.view.fitWorld();
