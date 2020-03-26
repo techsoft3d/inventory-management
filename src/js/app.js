@@ -96,11 +96,8 @@ class main {
     this._viewer.model.clear().then(() => {
       const nodeName = "Model-" + modelName;
       const modelNodeId = this._viewer.model.createNode(null, nodeName);
-      this._viewer.model
-        .loadSubtreeFromScsFile(
-          modelNodeId,
-          directoryPath + "/data/" + modelName + ".scs"
-        )
+      debugger;
+      this._viewer.model.loadSubtreeFromScsFile(modelNodeId, directoryPath + "/data/" + modelName + ".scs")
         .then(() => {
           this._viewer.view.fitWorld();
           // Get the application data and map each NodeID as a key, and the rest of its data as a value
