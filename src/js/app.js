@@ -1,5 +1,5 @@
-import "../css/tutorial-userData.css";
-import DisplayFilter from "./DisplayFilter.js";
+
+//const DisplayFilter = require("./DisplayFilter.js");
 
 let directoryPath = ".";
 // Application logic will begin once DOM content is loaded
