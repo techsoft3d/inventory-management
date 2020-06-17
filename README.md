@@ -18,6 +18,6 @@ Verify you have the latest version of `npm` installed on your machine:
 
 ## Setup and Run
 
-1. Run`python3 -m http.server 8080` 
-2. go to [http://localhost:8081](http://localhost:8081) 
+1. Run `python3 -m http.server 8080` 
+2. go to [http://localhost:8080](http://localhost:8080) 
 
