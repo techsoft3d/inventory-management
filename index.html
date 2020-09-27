@@ -13,31 +13,25 @@
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
   <!-- Include the HOOPS web viewer client source -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/techsoft3d/hoops-web-viewer@2020.0.0/hoops_web_viewer.js"></script>
+  <script type="text/javascript" src="src/hoops/hoops_web_viewer.js"></script>
 
   <!-- Making the viewer globally available for debug purposes -->
-  <script >       var app;     </script>
+  <script>       var app;     </script>
 
   <!-- Include the Webpack bundled result of our written source code -->
-   <script src="./src/js/DisplayFilter.js" ></script> 
-  <script src="./src/js/app.js" ></script>
-
-  <link href="./src/css/tutorial-userData.css" rel="stylesheet">
+  <script src="build/bundle.js"></script>
 
   <title>Workflow Tutorial: Inventory Management</title>
-
-  <!-- Favicon head tag -->
-  <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
 
 <body>
   <!-- Header Component w/ TS3D images -->
   <header id="logo-head" class="comp-container">
     <div id="ts3dlogo">
-      <img src="./img/ts3d_logo.png" alt="logo" />
+      <img src="img/ts3d_logo.png" alt="logo" />
     </div>
     <div id="hclogo">
-      <img src="./img/hc.png" alt="hcLogo" />
+      <img src="img/hc.png" alt="hcLogo" />
     </div>
   </header>
 
@@ -149,12 +143,12 @@
 
     <div id="companyFilter" class="subcomp">
       <span><p id="companyLabel">Manufacturers:</p> </span>
-      <img class="companyFilterButton selected" alt="Kane Co." src="./data/database/companyLogos/kaneco.png"/>
-      <img class="companyFilterButton selected" alt="Taddy Technologies" src="./data/database/companyLogos/taddytech.png"/>
-      <img class="companyFilterButton selected" alt="Bradford Engineering" src="./data/database/companyLogos/bradfordengineering.png"/>
-      <img class="companyFilterButton selected" alt="Maurice Machinery" src="./data/database/companyLogos/maurice.png"/>
-      <img class="companyFilterButton selected" alt="Toshiaki Industries" src="./data/database/companyLogos/toshiakiIndustries.png"/>
-      <img class="companyFilterButton selected" alt="ThiccPills Parts and Products" src="./data/database/companyLogos/thiccpills.png"/>
+      <img class="companyFilterButton selected" alt="Kane Co." src="/data/database/companyLogos/kaneco.png"/>
+      <img class="companyFilterButton selected" alt="Taddy Technologies" src="/data/database/companyLogos/taddytech.png"/>
+      <img class="companyFilterButton selected" alt="Bradford Engineering" src="/data/database/companyLogos/bradfordengineering.png"/>
+      <img class="companyFilterButton selected" alt="Maurice Machinery" src="/data/database/companyLogos/maurice.png"/>
+      <img class="companyFilterButton selected" alt="Toshiaki Industries" src="/data/database/companyLogos/toshiakiindustries.png"/>
+      <img class="companyFilterButton selected" alt="ThiccPills Parts and Products" src="/data/database/companyLogos/thiccpills.png"/>
     </div>
 
   </div>
@@ -162,14 +156,7 @@
   <!-- Model Browser Component -->
   <div id="model-browser" class="comp-container">
     <div id="model-browser-label" class="comp-label">Model Browser</div>
-    <div id="models-scroller">
-      <a id="moto" href class="model-thumb" model="moto">
-        <img src="./data/thumbnails/moto.png">
-      </a>
-      <a id="microengine" href class="model-thumb" model="microengine">
-        <img src="./data/thumbnails/microengine.png">
-      </a>
-    </div>
+    <div id="models-scroller"></div>
     <div id="model-browser-buttons">
       <button id="open-model-button" onclick="document.getElementById('file-input').click(); return false;"
         type="button" class="btn btn-primary btn-sm button-row" disabled>Open Model...</button>

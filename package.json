@@ -3,12 +3,8 @@
   "version": "1.0.0",
   "description": "Bare bones tutorial demonstrating how to connect user data in HC",
   "main": "app.js",
-  "type": "module",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "webpack-dev-server"
   },
   "author": "Chris Pillion",
   "license": "ISC",
@@ -18,7 +14,6 @@
     "babel-preset-env": "^1.7.0",
     "css-loader": "^1.0.0",
     "file-loader": "^3.0.1",
-    "gh-pages": "^2.2.0",
     "style-loader": "^0.21.0",
     "ts-loader": "^5.3.3",
     "typescript": "^3.4.1",

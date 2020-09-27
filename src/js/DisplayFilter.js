@@ -1,4 +1,4 @@
-class DisplayFilter {
+export default class DisplayFilter {
     constructor(viewer) {
         this._viewer = viewer;
         this._filterSelection = "isolateChoice";
@@ -174,5 +174,3 @@ class DisplayFilter {
         this._gradientSelection = choice;
     }
 }
-
-//module.exports = DisplayFilter;
