@@ -3,6 +3,9 @@ export default class DisplayFilter {
         this._viewer = viewer;
         this._filterSelection = "isolateChoice";
         this._sliderVals = new Map();
+        this._priceColorMap = new Map();
+        this._stockColorMap = new Map();
+        this._defaultColors = new Map();
         this._filteredNodes = [];
         let sliderElements = document.querySelectorAll("#psMinSlider, #psMaxSlider, #ssMinSlider, #ssMaxSlider");
         sliderElements.forEach((x) => {
