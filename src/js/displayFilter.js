@@ -2,11 +2,18 @@ export default class DisplayFilter {
     constructor(viewer) {
         this._viewer = viewer;
         this._filterSelection = "isolateChoice";
+        this._gradientSelection = "offGradientChoice";
         this._sliderVals = new Map();
         this._priceColorMap = new Map();
         this._stockColorMap = new Map();
         this._defaultColors = new Map();
         this._filteredNodes = [];
+        this._companyFilter = [];
+        let selectedCompanies = document.getElementsByClassName("selected");
+        for (let element of selectedCompanies) {
+            let inputElement = element;
+            this._companyFilter.push(inputElement.alt);
+        }
         let sliderElements = document.querySelectorAll("#psMinSlider, #psMaxSlider, #ssMinSlider, #ssMaxSlider");
         sliderElements.forEach((x) => {
             let slider = x;
@@ -84,6 +91,7 @@ export default class DisplayFilter {
             this._viewer.view.setDrawMode(Communicator.DrawMode.WireframeOnShaded);
         }
         let promiseArray = [];
+        promiseArray.push(this._viewer.model.unsetNodesFaceColor([this._viewer.model.getAbsoluteRootNode()]));
         promiseArray.push(this._viewer.model.setNodesVisibility([this._viewer.model.getAbsoluteRootNode()], true));
         promiseArray.push(this._viewer.model.setNodesOpacity([this._viewer.model.getAbsoluteRootNode()], 1.0));
         Promise.all(promiseArray)
@@ -103,6 +111,12 @@ export default class DisplayFilter {
                 this._filteredNodes.forEach(nodeId => {
                     sm.selectNode(nodeId, Communicator.SelectionMode.Add);
                 });
+            }
+            if (this._gradientSelection === "priceGradientChoice") {
+                this._viewer.model.setNodesColors(this._priceColorMap);
+            }
+            else if (this._gradientSelection === "stockGradientChoice") {
+                this._viewer.model.setNodesColors(this._stockColorMap);
             }
         });          
     }

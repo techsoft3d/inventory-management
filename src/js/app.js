@@ -1,6 +1,6 @@
+
 import '../css/tutorial-userData.css';
 import DisplayFilter from "./DisplayFilter.js";
-
 // Application logic will begin once DOM content is loaded
 window.onload = () => {
     const app = new main();
@@ -21,8 +21,10 @@ class main {
         this._viewer.setCallbacks({
             modelStructureReady: () => {
                 // Background color for viewers
-                this._viewer.view.setBackgroundColor(new Communicator.Color(100, 150, 200), new Communicator.Color(222, 222, 222));
-                
+                this._viewer.view.setBackgroundColor(
+                    new Communicator.Color(100, 150, 200),
+                    new Communicator.Color(222, 222, 222)
+                    );
                 // Additional viewer options
                 this._viewer.view.getAxisTriad().enable();
                 this._viewer.view.getNavCube().enable();
@@ -68,10 +70,11 @@ class main {
             .then(() => {
             const nodeName = "Model-" + modelName;
             const modelNodeId = this._viewer.model.createNode(null, nodeName);
-            this._viewer.model.loadSubtreeFromScsFile(modelNodeId, "./data/" + modelName + ".scs")
+            this._viewer.model.loadSubtreeFromScsFile(modelNodeId, "/data/" + modelName + ".scs")
             .then(() => {
                 this._viewer.view.fitWorld();
-                fetch("./data/database/" + modelName + ".json")
+                // Get the application data and map each NodeID as a key, and the rest of its data as a value
+                fetch("/data/database/" + modelName + ".json")
                 .then((resp) => {
                   if (resp.ok) {
                     resp.json()
@@ -85,7 +88,7 @@ class main {
                             clippedID = nodeData[i].ID;
                             this._modelData.set(clippedID, nodeData[i]);
                             totalCost += nodeData[i].Price;
-                        }
+                        };
                         // Display the total cost of the assembly
                         document.getElementById("inv-total-cost").innerHTML = `$ ${totalCost.toFixed(2)}`;
                         this._displayFilter.captureNativeColors(this._modelData);
@@ -198,14 +201,5 @@ for (let element of compButtons) {
                 };
             };
         };
-    } // End setting even handlers
-} // End main class
-
-
-
-
-
-
-
-
-
+    } // End setting event handlers
+} // End app class
