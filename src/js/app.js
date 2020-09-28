@@ -93,9 +93,7 @@ class main {
                         this._displayFilter.updateColorGradients(this._modelData);
                         this._displayFilter.setRenderingSelection();
                     });
-
-                  }
-                  else {
+                  } else {
                     alert("No JSON data for this Model was found.");
                   }
                 });
@@ -115,10 +113,54 @@ class main {
         this._displayFilter.setRenderingSelection();
     }
     setEventListeners() {
+        document.getElementById("psMinSlider").oninput = () => {
+            this.sliderOnInput("psMin");
+        };
+        document.getElementById("psMaxSlider").oninput = () => {
+            this.sliderOnInput("psMax");
+        };
+        document.getElementById("ssMinSlider").oninput = () => {
+            this.sliderOnInput("ssMin");
+        };
+        document.getElementById("ssMaxSlider").oninput = () => {
+            this.sliderOnInput("ssMax");
+        };
         document.getElementById("open-model-button").onclick = () => {
             // Proxy to override the default behavior of file input type
-            document.getElementById('file-input').click();
+            document.getElementById("file-input").click();
         };
+        document.getElementsByName("displaymode").forEach((element) => {
+            let inputElement = element;
+            inputElement.onclick = () => {
+                this._displayFilter.setFilterSelection(inputElement.id);
+                this._displayFilter.gatherFilteredNodes(this._modelData);
+                this._displayFilter.setRenderingSelection();
+            };
+        });
+        document.getElementsByName("gradientmode").forEach((element) => {
+            let inputElement = element;
+            inputElement.onclick = () => {
+                this._displayFilter.setGradientSelection(inputElement.id);
+                this._displayFilter.setRenderingSelection();
+            };
+        });
+        let compButtons = document
+        .getElementById("companyFilter")
+        .getElementsByClassName("companyFilterButton");
+for (let element of compButtons) {
+    let htmlelement = element;
+    htmlelement.onclick = () => {
+        if (htmlelement.classList.contains("selected")) {
+            htmlelement.classList.remove("selected");
+            this._displayFilter.removeCompany(htmlelement.alt);
+        } else {
+            htmlelement.classList.add("selected");
+            this._displayFilter.addCompany(htmlelement.alt);
+        }
+        this._displayFilter.gatherFilteredNodes(this._modelData);
+        this._displayFilter.setRenderingSelection();
+    };
+}
         document.getElementById("file-input").onchange = (e) => {
             // Once a file has been selected by the user, use the file information to 
             // gather the associated relevant data like thumbnails
@@ -132,14 +174,12 @@ class main {
             modelThumbnail.setAttribute("model", modelname);
             let imgPath = "./data/thumbnails/" + modelname + ".png";
             // Check to see if the selected model has a corresponding thumbnail made
-            fetch(imgPath)
-                .then((resp) => {
+            fetch(imgPath).then((resp) => {
                 if (resp.ok) {
-                    let modelImg = document.createElement('img');
+                    let modelImg = document.createElement("img");
                     modelImg.src = imgPath;
                     modelThumbnail.appendChild(modelImg);
-                }
-                else {
+                } else {
                     modelThumbnail.innerHTML = modelname;
                     console.log("No Image for this Model was found.");
                 }

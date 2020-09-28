@@ -28,6 +28,32 @@ export default class DisplayFilter {
             }
         });
     }
+    updateSliderRange(id) {
+        let sliderElement = document.getElementById(`${id}Slider`);
+        let key = id + "Val";
+        this._sliderVals.set(key, sliderElement.value);
+    }
+    updateSliderLabels(filter) {
+        let id1 = filter.substring(0, 2) + "MinVal";
+        let id2 = filter.substring(0, 2) + "MaxVal";
+        let minVal = parseInt(this._sliderVals.get(id1));
+        let maxVal = parseInt(this._sliderVals.get(id2));
+        if (minVal >= maxVal) {
+            minVal = maxVal - 1;
+            this._sliders.get(id1).value = minVal.toString();
+            this._sliderVals.set(id1, minVal.toString());
+            return;
+        }
+        if (maxVal <= minVal) {
+            maxVal = minVal + 1;
+            this._sliders.get(id2).value = maxVal.toString();
+            this._sliderVals.set(id2, maxVal.toString());
+            return;
+        }
+        let valueLabels = document.querySelectorAll(`#${id1} , #${id2}`);
+        valueLabels[0].innerHTML = minVal.toString();
+        valueLabels[1].innerHTML = maxVal.toString();
+    }
     gatherFilteredNodes(modelData) {
         let pMinVal = parseInt(this._sliderVals.get("psMinVal"));
         let pMaxVal = parseInt(this._sliderVals.get("psMaxVal"));
@@ -120,7 +146,17 @@ export default class DisplayFilter {
             }
         }
     }
+    addCompany(company) {
+        this._companyFilter.push(company);
+    }
+    removeCompany(company) {
+        let index = this._companyFilter.indexOf(company);
+        this._companyFilter.splice(index, 1);
+    }
     setFilterSelection(filter) {
         this._filterSelection = filter;
+    }
+    setGradientSelection(choice) {
+        this._gradientSelection = choice;
     }
 }
