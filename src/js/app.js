@@ -82,9 +82,10 @@ class main {
                             this._modelData.set(clippedID, nodeData[i]);
                             totalCost += nodeData[i].Price;
                         }
+                        // Display the total cost of the assembly
+                        document.getElementById("inv-total-cost").innerHTML = `$ ${totalCost.toFixed(2)}`;
                       });
-                      // Display the total cost of the assembly
-                      document.getElementById("inv-total-cost").innerHTML = `$ ${totalCost.toFixed(2)}`;
+
                   }
                   else {
                     alert("No JSON data for this Model was found.");
