@@ -50,6 +50,7 @@ export default class DisplayFilter {
         }
         let psNodesPassed =  pNodesPassed.filter(value => -1 !== sNodesPassed.indexOf(value));
         this._filteredNodes = psNodesPassed.filter(value => -1 !== mNodesPassed.indexOf(value));
+        this.updateColorGradients(modelData);
     }
     setRenderingSelection() {
         if (this._viewer.view.getDrawMode() === Communicator.DrawMode.XRay) {
@@ -78,6 +79,46 @@ export default class DisplayFilter {
                 });
             }
         });          
+    }
+    captureNativeColors(modelData) {
+        let valuesIterator = modelData.values();
+        for (let nodeValues of valuesIterator) {
+            this._viewer.model.getNodesEffectiveFaceColor([nodeValues.ID])
+                .then(([color]) => {
+                this._defaultColors.set(nodeValues.ID, color);
+            });
+        }
+    }
+    updateColorGradients(modelData) {
+        let minPrice = 250, maxPrice = 0, minStock = 1000, maxStock = 0;
+        this._filteredNodes.forEach((node) => {
+            let nodeValues = modelData.get(node);
+            if (nodeValues.Price < minPrice)
+                minPrice = nodeValues.Price;
+            if (nodeValues.Price > maxPrice)
+                maxPrice = nodeValues.Price;
+            if (nodeValues.Stock < minStock)
+                minStock = nodeValues.Stock;
+            if (nodeValues.Stock > maxStock)
+                maxStock = nodeValues.Stock;
+        });
+        let valuesIterator = modelData.values();
+        for (let nodeValues of valuesIterator) {
+            if (this._filteredNodes.indexOf(nodeValues.ID) == -1) {
+                this._priceColorMap.set(nodeValues.ID, this._defaultColors.get(nodeValues.ID));
+                this._stockColorMap.set(nodeValues.ID, this._defaultColors.get(nodeValues.ID));
+            }
+            else {
+                let pr = (nodeValues.Price - minPrice) / (maxPrice - minPrice) * 255;
+                let pb = (1 - (nodeValues.Price - minPrice) / (maxPrice - minPrice)) * 255;
+                let pg = (1 - Math.abs((nodeValues.Price - minPrice) / (maxPrice - minPrice) - (1 - ((nodeValues.Price - minPrice) / (maxPrice - minPrice))))) * 255;
+                let sr = (1 - (nodeValues.Stock - minStock) / (maxStock - minStock)) * 255;
+                let sb = (1 - (nodeValues.Stock) / (maxStock)) * 50;
+                let sg = (nodeValues.Stock - minStock) / (maxStock - minStock) * 160;
+                this._priceColorMap.set(nodeValues.ID, new Communicator.Color(pr, pg, pb));
+                this._stockColorMap.set(nodeValues.ID, new Communicator.Color(sr, sg, 0));
+            }
+        }
     }
     setFilterSelection(filter) {
         this._filterSelection = filter;

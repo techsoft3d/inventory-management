@@ -84,7 +84,11 @@ class main {
                         }
                         // Display the total cost of the assembly
                         document.getElementById("inv-total-cost").innerHTML = `$ ${totalCost.toFixed(2)}`;
-                      });
+                        this._displayFilter.captureNativeColors(this._modelData);
+                        this._displayFilter.gatherFilteredNodes(this._modelData);
+                        this._displayFilter.updateColorGradients(this._modelData);
+                        this._displayFilter.setRenderingSelection();
+                    });
 
                   }
                   else {
