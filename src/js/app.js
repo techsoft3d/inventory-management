@@ -108,6 +108,12 @@ class main {
             });
         });
     }
+    sliderOnInput(slider) {
+        this._displayFilter.updateSliderRange(slider);
+        this._displayFilter.updateSliderLabels(slider);
+        this._displayFilter.gatherFilteredNodes(this._modelData);
+        this._displayFilter.setRenderingSelection();
+    }
     setEventListeners() {
         document.getElementById("open-model-button").onclick = () => {
             // Proxy to override the default behavior of file input type
