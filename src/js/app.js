@@ -1,4 +1,6 @@
 import '../css/tutorial-userData.css';
+import DisplayFilter from "./DisplayFilter.js";
+
 // Application logic will begin once DOM content is loaded
 window.onload = () => {
     const app = new main();
