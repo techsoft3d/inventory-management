@@ -45,7 +45,7 @@ export default class DisplayFilter {
                 mNodesPassed.push(nodeValues.ID);
             }
         }
-        let psNodesPassed = pNodesPassed.filter(value => -1 !== sNodesPassed.indexOf(value));
+        let psNodesPassed =  pNodesPassed.filter(value => -1 !== sNodesPassed.indexOf(value));
         this._filteredNodes = psNodesPassed.filter(value => -1 !== mNodesPassed.indexOf(value));
     }
     setRenderingSelection() {
