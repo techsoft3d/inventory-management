@@ -15,6 +15,8 @@ class main {
             containerId: "viewer",
             empty: true
         });
+                // The display filter class will help manage filtered nodes from UI choices
+                this._displayFilter = new DisplayFilter(this._viewer);
         this._viewer.start();
         this._viewer.setCallbacks({
             modelStructureReady: () => {
@@ -66,10 +68,10 @@ class main {
             .then(() => {
             const nodeName = "Model-" + modelName;
             const modelNodeId = this._viewer.model.createNode(null, nodeName);
-            this._viewer.model.loadSubtreeFromScsFile(modelNodeId, "/data/" + modelName + ".scs")
+            this._viewer.model.loadSubtreeFromScsFile(modelNodeId, "./data/" + modelName + ".scs")
             .then(() => {
                 this._viewer.view.fitWorld();
-                fetch("/data/database/" + modelName + ".json")
+                fetch("./data/database/" + modelName + ".json")
                 .then((resp) => {
                   if (resp.ok) {
                     resp.json()
@@ -122,7 +124,7 @@ class main {
             modelThumbnail.href = "";
             modelThumbnail.className = "model-thumb";
             modelThumbnail.setAttribute("model", modelname);
-            let imgPath = "/data/thumbnails/" + modelname + ".png";
+            let imgPath = "./data/thumbnails/" + modelname + ".png";
             // Check to see if the selected model has a corresponding thumbnail made
             fetch(imgPath)
                 .then((resp) => {
