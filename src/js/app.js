@@ -8,6 +8,11 @@ window.onload = () => {
 
 class main {
   constructor() {
+
+    // Initialize a Map to quickly reference nodeId -> external app data
+    // The Map will be populated when a model is loaded
+    this._modelData = new Map();
+
     // Instantiate the viewer
     this._viewer = new Communicator.WebViewer({
       containerId: "viewer",
@@ -28,8 +33,33 @@ class main {
 
       selectionArray: (selectionEvents) => {
         // Reset info fields if no selection item was chosen
+        if (selectionEvents.length == 0) {
+          document.getElementById("node-id").innerHTML = "--";
+          document.getElementById("node-name").innerHTML = "--";
+          document.getElementById("inv-manufacturer").innerHTML = "--";
+          document.getElementById("inv-select-cost").innerHTML = "--";
+          document.getElementById("inv-total-stock").innerHTML = "--";
+          document.getElementById("inv-avail-stock").innerHTML = "--";
+          document.getElementById("inv-claimed").innerHTML = "--";
+          document.getElementById("inv-location").innerHTML = "--";
+          return;
+        }
+
         // Otherwise, display node information for the first node in the selection array
-        // If the selection nodeId is found in the application data, populate the inspector fields with application data
+        const nodeId = selectionEvents[0].getSelection().getNodeId();
+        document.getElementById("node-id").innerHTML = nodeId.toString() || "Unknown";
+        document.getElementById("node-name").innerHTML = this._viewer.model.getNodeName(nodeId) || "Node Name Not Defined";
+
+        // If the selection nodeId is found in the application data, populate the inspector fields
+        if (this._modelData.has(nodeId)) {
+          let nodeData = this._modelData.get(nodeId);
+          document.getElementById("inv-manufacturer").innerHTML = nodeData.Manufacturer;
+          document.getElementById("inv-select-cost").innerHTML = `$ ${nodeData.Price.toFixed(2)}`;
+          document.getElementById("inv-total-stock").innerHTML = nodeData.Stock.toString();
+          document.getElementById("inv-avail-stock").innerHTML = (nodeData.Stock - nodeData.Reserved).toString();
+          document.getElementById("inv-claimed").innerHTML = nodeData.Reserved.toString();
+          document.getElementById("inv-location").innerHTML = nodeData.Location;
+        }
       },
 
       sceneReady: () => {
@@ -57,6 +87,31 @@ class main {
         this._viewer.model.loadSubtreeFromScsFile(modelNodeId, "/data/" + modelName + ".scs")
           .then(() => {
             this._viewer.view.fitWorld();
+            fetch("/data/database/" + modelName + ".json")
+              .then((resp) => {
+                if (resp.ok) {
+                  resp.json()
+                    .then((data) => {
+
+                      let nodeData = data.NodeData;
+                      let numEntries = nodeData.length;
+                      let clippedID;
+                      let totalCost = 0;
+                      this._modelData.clear();
+                      for (let i = 0; i < numEntries; ++i) {
+                        clippedID = nodeData[i].ID;
+                        this._modelData.set(clippedID, nodeData[i]);
+                        totalCost += nodeData[i].Price;
+                      }
+                      // Display the total cost of the assembly
+                      document.getElementById("inv-total-cost").innerHTML = `$ ${totalCost.toFixed(2)}`;
+                    });
+
+                }
+                else {
+                  alert("No JSON data for this Model was found.");
+                }
+              });
             // Get and set the rest of the model level info
             const modelRoot = this._viewer.model.getNodeChildren(modelNodeId)[0];
             const modelFileName = this._viewer.model.getModelFileNameFromNode(modelRoot);
@@ -92,7 +147,7 @@ class main {
       // Proxy to override the default behavior of file input type
       document.getElementById('file-input').click();
     };
-    
+
     document.getElementById("file-input").onchange = (e) => {
       // Once a file has been selected by the user, use the file information to 
       // gather the associated relevant data like thumbnails
