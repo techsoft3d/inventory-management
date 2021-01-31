@@ -1,6 +1,6 @@
-# Inventory Management Completed
+# Inventory Management Tutorial Template
 
-This repository contains a completed version of TechSoft 3D's [Inventory Management tutorial](https://docs.techsoft3d.com/communicator/latest/build/tutorials/inventory-management/01.html) for HOOPS Communicator.
+This repository contains a starting template of TechSoft 3D's [Inventory Management Tutorial](https://docs.techsoft3d.com/communicator/latest/build/tutorials/inventory-management/01.html) for HOOPS Communicator.
 
 See it running live on [github pages](https://techsoft3d.github.io/inventory-management/)
 
@@ -13,7 +13,6 @@ Verify you have the latest version of `npm` installed:
 ## Install
 
 1. Clone the project: `git clone https://github.com/techsoft3d/inventory-management.git`
-2. Navigate to the project folder: `cd inventory_management_completed`
+2. Navigate to the project folder: `cd inventory_management`
 3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
-5. View the project at [http://localhost:8080](http://localhost:8080)
+4. Start the development server: `npm run start`
