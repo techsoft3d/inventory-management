@@ -1,6 +1,6 @@
 # Inventory Management Tutorial Template
 
-This repository contains a starting template of TechSoft 3D's [Inventory Management Tutorial](https://docs.techsoft3d.com/communicator/latest/build/tutorials/inventory-management/01.html) for HOOPS Communicator.
+This repository contains a starting template for TechSoft 3D's [Inventory Management Tutorial](https://docs.techsoft3d.com/communicator/latest/build/tutorials/inventory-management/01.html) for HOOPS Communicator.
 
 See it running live on [github pages](https://techsoft3d.github.io/inventory-management/)
 
