@@ -7,11 +7,15 @@ window.onload = () => {
 
 
 class main {
+
   constructor() {
+
     this.setEventListeners();
+    
   } // End app Constructor
 
   setEventListeners() {
+
     document.getElementById("psMinSlider").oninput = () => {
 
     };
@@ -24,9 +28,6 @@ class main {
     document.getElementById("ssMaxSlider").oninput = () => {
 
     };
-    document.getElementById("open-model-button").onclick = () => {
-
-    };
     document.getElementsByName("displaymode").forEach(element => {
 
     });
@@ -34,6 +35,9 @@ class main {
 
     });
     document.getElementById("file-input").onchange = e => {
+
+    };
+    document.getElementById("open-model-button").onclick = () => {
 
     };
 
