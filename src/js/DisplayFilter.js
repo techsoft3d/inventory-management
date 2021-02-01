@@ -1,4 +1,4 @@
-export default class DisplayFilter {
+class DisplayFilter {
     constructor(viewer) {
         this._viewer = viewer;
         this._filteredNodes = [];
