@@ -13,13 +13,13 @@
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
   <!-- Include the HOOPS web viewer client source -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/techsoft3d/hoops-web-viewer@2020.0.0/hoops_web_viewer.js"></script>
-
-  <!-- Making the viewer globally available for debug purposes -->
-  <script>       var app;     </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/techsoft3d/hoops-web-viewer@latest/hoops_web_viewer.js"></script>
 
   <!-- Include the Webpack bundled result of our written source code -->
-  <script src="build/bundle.js"></script>
+  <script src="./src/js/DisplayFilter.js" ></script> 
+  <script src="./src/js/app.js" ></script>
+
+  <link href="./src/css/tutorial-inventoryMgmt.css" rel="stylesheet">
 
   <title>Workflow Tutorial: Inventory Management</title>
 </head>
@@ -157,13 +157,7 @@
   <div id="model-browser" class="comp-container">
     <div id="model-browser-label" class="comp-label">Model Browser</div>
     <div id="models-scroller">
-      <a id="moto" href class="model-thumb" model="moto">
-        <img src="./data/thumbnails/moto.png">
-      </a>
-      <a id="microengine" href class="model-thumb" model="microengine">
-        <img src="./data/thumbnails/microengine.png">
-      </a>
-      </div>
+    </div>
     <div id="model-browser-buttons">
       <button id="open-model-button" onclick="document.getElementById('file-input').click(); return false;"
         type="button" class="btn btn-primary btn-sm button-row" disabled>Open Model...</button>
