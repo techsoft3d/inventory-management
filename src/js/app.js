@@ -20,6 +20,8 @@ class main {
     });
     this._viewer.start();
 
+    this._displayFilter = new DisplayFilter(this._viewer);
+
     // Set the viewer callback functionality
     this._viewer.setCallbacks({
 
@@ -105,6 +107,10 @@ class main {
                       }
                       // Display the total cost of the assembly
                       document.getElementById("inv-total-cost").innerHTML = `$ ${totalCost.toFixed(2)}`;
+                      this._displayFilter.captureNativeColors(this._modelData);
+                      this._displayFilter.gatherFilteredNodes(this._modelData);
+                      this._displayFilter.updateColorGradients(this._modelData);
+                      this._displayFilter.setRenderingSelection();
                     });
 
                 }
@@ -122,26 +128,42 @@ class main {
       });
   }
 
+  sliderOnInput(slider) {
+    this._displayFilter.updateSliderRange(slider);
+    this._displayFilter.updateSliderLabels(slider);
+    this._displayFilter.gatherFilteredNodes(this._modelData);
+    this._displayFilter.setRenderingSelection();
+  }
+
   setEventListeners() {
 
     document.getElementById("psMinSlider").oninput = () => {
-
+      this.sliderOnInput("psMin");
     };
     document.getElementById("psMaxSlider").oninput = () => {
-
+      this.sliderOnInput("psMax");
     };
     document.getElementById("ssMinSlider").oninput = () => {
-
+      this.sliderOnInput("ssMin");
     };
     document.getElementById("ssMaxSlider").oninput = () => {
-
+      this.sliderOnInput("ssMax");
     };
-    document.getElementsByName("displaymode").forEach(element => {
-
-    });
-    document.getElementsByName("gradientmode").forEach(element => {
-
-    });
+    document.getElementsByName("displaymode").forEach((element) => {
+      let inputElement = element;
+      inputElement.onclick = () => {
+          this._displayFilter.setFilterSelection(inputElement.id);
+          this._displayFilter.gatherFilteredNodes(this._modelData);
+          this._displayFilter.setRenderingSelection();
+      };
+  });
+  document.getElementsByName("gradientmode").forEach((element) => {
+      let inputElement = element;
+      inputElement.onclick = () => {
+          this._displayFilter.setGradientSelection(inputElement.id);
+          this._displayFilter.setRenderingSelection();
+      };
+  });
 
     document.getElementById("open-model-button").onclick = () => {
       // Proxy to override the default behavior of file input type
@@ -187,6 +209,24 @@ class main {
         };
       };
     };
+
+
+    let compButtons = document.getElementById("companyFilter").getElementsByClassName("companyFilterButton");
+    for (let element of compButtons) {
+      let htmlelement = element;
+      htmlelement.onclick = () => {
+        if (htmlelement.classList.contains("selected")) {
+          htmlelement.classList.remove("selected");
+          this._displayFilter.removeCompany(htmlelement.alt);
+        }
+        else {
+          htmlelement.classList.add("selected");
+          this._displayFilter.addCompany(htmlelement.alt);
+        }
+        this._displayFilter.gatherFilteredNodes(this._modelData);
+        this._displayFilter.setRenderingSelection();
+      };
+    }
 
   } // End setting event listeners
 
