@@ -23,8 +23,14 @@ class main {
     this._displayFilter = new DisplayFilter(this._viewer);
 
     // Set the viewer callback functionality
-    this._viewer.setCallbacks({
+    this.setViewerCallbacks(); // End Callbacks
 
+    this.setEventListeners();
+
+  } // End app constructor
+
+  setViewerCallbacks() {
+    this._viewer.setCallbacks({
       modelStructureReady: () => {
 
         // Enable load model button
@@ -75,11 +81,8 @@ class main {
         this._viewer.view.getNavCube().setAnchor(Communicator.OverlayAnchor.LowerRightCorner);
 
       }
-    }); // End Callbacks
-
-    this.setEventListeners();
-
-  } // End app constructor
+    });
+  }
 
   loadModel(modelName) {
     this._viewer.model.clear()
