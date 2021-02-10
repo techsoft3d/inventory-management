@@ -34,12 +34,6 @@ class main {
     document.getElementsByName("gradientmode").forEach(element => {
 
     });
-    document.getElementById("file-input").onchange = e => {
-
-    };
-    document.getElementById("open-model-button").onclick = () => {
-
-    };
 
   } // End setting event listeners
 
