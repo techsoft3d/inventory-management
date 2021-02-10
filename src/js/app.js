@@ -82,10 +82,10 @@ class main {
       .then(() => {
         const nodeName = "Model-" + modelName;
         const modelNodeId = this._viewer.model.createNode(null, nodeName);
-        this._viewer.model.loadSubtreeFromScsFile(modelNodeId, "/data/" + modelName + ".scs")
+        this._viewer.model.loadSubtreeFromScsFile(modelNodeId, "./data/" + modelName + ".scs")
           .then(() => {
             this._viewer.view.fitWorld();
-            fetch("/data/database/" + modelName + ".json")
+            fetch("./data/database/" + modelName + ".json")
               .then((resp) => {
                 if (resp.ok) {
                   resp.json()
