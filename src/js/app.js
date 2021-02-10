@@ -31,13 +31,6 @@ class main {
 
   setViewerCallbacks() {
     this._viewer.setCallbacks({
-      modelStructureReady: () => {
-
-        // Enable load model button
-        let loadButton = document.getElementById("open-model-button");
-        loadButton.disabled = false;
-
-      },
 
       selectionArray: (selectionEvents) => {
         // Reset info fields if no selection item was chosen
@@ -168,48 +161,16 @@ class main {
       };
     });
 
-    document.getElementById("open-model-button").onclick = () => {
-      // Proxy to override the default behavior of file input type
-      document.getElementById('file-input').click();
-    };
-
-    document.getElementById("file-input").onchange = (e) => {
-      // Once a file has been selected by the user, use the file information to 
-      // gather the associated relevant data like thumbnails
-      let fileChoice = e.target.value;
-      let filename = fileChoice.replace(/^.*[\\\/]/, '');
-      let modelThumbnail = document.createElement('a');
-      let modelname = filename.split(".", 1)[0];
-      modelThumbnail.id = modelname;
-      modelThumbnail.href = "";
-      modelThumbnail.className = "model-thumb";
-      modelThumbnail.setAttribute("model", modelname);
-      let imgPath = "/data/thumbnails/" + modelname + ".png";
-      // Check to see if the selected model has a corresponding thumbnail made
-      fetch(imgPath)
-        .then((resp) => {
-          if (resp.ok) {
-            let modelImg = document.createElement('img');
-            modelImg.src = imgPath;
-            modelThumbnail.appendChild(modelImg);
-          }
-          else {
-            modelThumbnail.innerHTML = modelname;
-            console.log("No Image for this Model was found.");
-          }
-        });
-      document.getElementById("models-scroller").appendChild(modelThumbnail);
-      // Now update the event callbacks for the thumbnails
-      const thumbnailElements = document.getElementsByClassName("model-thumb");
-      for (let thumbnail of thumbnailElements) {
-        let thumbnailElement = thumbnail;
-        thumbnailElement.onclick = (e) => {
-          e.preventDefault();
-          let elem = e.currentTarget;
-          let modelToLoad = elem.getAttribute("model");
-          // Load the model into the scene when clicked
-          this.loadModel(modelToLoad);
-        };
+    // Now update the event callbacks for the thumbnails
+    const thumbnailElements = document.getElementsByClassName("model-thumb");
+    for (let thumbnail of thumbnailElements) {
+      let thumbnailElement = thumbnail;
+      thumbnailElement.onclick = (e) => {
+        e.preventDefault();
+        let elem = e.currentTarget;
+        let modelToLoad = elem.getAttribute("model");
+        // Load the model into the scene when clicked
+        this.loadModel(modelToLoad);
       };
     };
 
