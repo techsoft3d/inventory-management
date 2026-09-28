@@ -2,14 +2,13 @@
   "name": "inventory-management-template",
   "version": "1.0.0",
   "description": "HC Tutorial demonstrating how to connect user data to models",
-  "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "live-server --entry-file=./index.html"
+    "dev": "vite"
   },
   "author": "Tech Soft 3D",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "1.2.2"
+    "vite": "^5.4.0"
   }
 }

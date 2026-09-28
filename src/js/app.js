@@ -1,8 +1,9 @@
-
+import '../css/tutorial-inventoryMgmt.css';
+import '@ts3d-hoops/web-viewer-components';
 
 // Application logic will begin once DOM content is loaded
 window.onload = () => {
-  app = new main();
+  const app = new main();
 };
 
 

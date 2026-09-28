@@ -20,18 +20,6 @@
 
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
-  <!-- Include the HOOPS web viewer client source -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/techsoft3d/hoops-web-viewer@latest/hoops_web_viewer.js"></script>
-
-  <!-- Making the viewer globally available for debug purposes -->
-  <script >       var app;     </script>
-
-  <!-- Include the Webpack bundled result of our written source code -->
-   <script src="./src/js/DisplayFilter.js" ></script> 
-  <script src="./src/js/app.js" ></script>
-
-  <link href="./src/css/tutorial-inventoryMgmt.css" rel="stylesheet">
-
   <title>Workflow Tutorial: Inventory Management</title>
 
   <!-- Favicon head tag -->
@@ -107,7 +95,11 @@
 
   <!-- Main Viewer Component w/ Interaction -->
   <div id="canvas" class="comp-container">
-    <div id="viewer"></div>
+    <hoops-service-registry>
+      <hoops-web-viewer-context-manager>
+        <hoops-web-viewer id="viewer" enginePath="./engine"></hoops-web-viewer>
+      </hoops-web-viewer-context-manager>
+    </hoops-service-registry>
     <div id="viewer-label" class="comp-label">HOOPS WebViewer</div>
   </div>
 
@@ -175,16 +167,15 @@
   <!-- Model Browser Component -->
   <div id="model-browser" class="comp-container">
     <div id="model-browser-label" class="comp-label">Model Browser</div>
-    <div id="models-scroller">
-      <a id="moto" href="" class="model-thumb" model="moto">
-        <img src='./data/thumbnails/moto.png'></img>
-      </a>
-      <a id="microengine" href="" class="model-thumb" model="microengine">
-        <img src='./data/thumbnails/microengine.png'></img>
-      </a>
+    <div id="models-scroller"></div>
+    <div id="model-browser-buttons">
+      <button id="open-model-button" onclick="document.getElementById('file-input').click(); return false;"
+        type="button" class="btn btn-primary btn-sm button-row" disabled>Open Model...</button>
+      <input id="file-input" type="file"></input>
     </div>
   </div>
 
+  <script type="module" src="src/js/app.js"></script>
 </body>
 
 </html>
